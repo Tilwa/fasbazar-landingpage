@@ -40,7 +40,7 @@ a {
   justify-content: space-between;
 }
 .service {
-  color: white;
+  color: black;
   border: 5px solid #feee00;
   border-radius: 10px 0px 10px 0px;
   display: flex;
