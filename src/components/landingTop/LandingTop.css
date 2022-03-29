@@ -1,0 +1,126 @@
+.top {
+  height: 100vh;
+}
+
+.navbar {
+  background-image: url("../../assets//2311.jpg");
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.logo {
+  width: max-content;
+  height: 100px;
+  margin-left: 60px;
+}
+.moon {
+  position: absolute;
+  top: 8%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  box-shadow: -15px 15px 0 5px white;
+  border-radius: 50%;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.twologo {
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: larger;
+}
+
+.btn {
+  background-color: antiquewhite;
+  position: absolute;
+  left: 1023px;
+  top: 566px;
+
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  border: none;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  opacity: 0.2;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(172, 169, 169);
+  transform: translateY(4px);
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c85c64;
+  opacity: 0.9;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  background-color: #ca686f;
+}
+
+.btns {
+  margin-top: 10px;
+  margin-left: 270px;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+  font-family: "Righteous", serif;
+  margin-top: 20px;
+  font-size: 3em;
+  text-shadow: 0.03em 0.03em 0 hsla(230, 40%, 50%, 1);
+}
