@@ -3,12 +3,16 @@ import "./Card.css";
 import { ProductData } from "../data/ProductsList";
 const Cards = () => {
   const data = ProductData;
+
+  const jumpLink = (x) => {
+    window.open(x.link, "_blank");
+  };
   return (
     <>
       <div className="flex">
         {data.map((x) => {
           return (
-            <div class="product-card">
+            <div class="product-card" onClick={() => jumpLink(x)}>
               <div class="product-tumb">
                 <img src={"https://i.imgur.com/xdbHo4E.png"} alt="" />
               </div>
