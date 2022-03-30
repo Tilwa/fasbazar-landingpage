@@ -1,5 +1,6 @@
 import LandingTop from "./components/landingTop/LandingTop";
 import Cards from "./components/cards/Cards";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <LandingTop />
 
       <Cards />
+      <Footer />
     </div>
   );
 }

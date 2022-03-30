@@ -124,3 +124,6 @@ h1 {
   font-size: 3em;
   text-shadow: 0.03em 0.03em 0 hsla(230, 40%, 50%, 1);
 }
+
+@media only screen and (max-width: 720px) {
+}

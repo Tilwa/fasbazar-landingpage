@@ -1,0 +1,22 @@
+.footer {
+  background-color: aquamarine;
+  height: 350px;
+  width: 100vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+.f-1 {
+  height: 85%;
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  justify-content: space-around;
+  color: #f4f4f4;
+  align-items: center;
+}
+
+.f-2 {
+  height: 15%;
+  background-color: #f4f4f4;
+  padding: 10px;
+}

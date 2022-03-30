@@ -7,14 +7,18 @@ const Cards = () => {
   const jumpLink = (x) => {
     window.open(x.link, "_blank");
   };
+
   return (
     <>
       <div className="flex">
         {data.map((x) => {
+          {
+            /* x = Math.floor(Math.random() * 100 + 1); */
+          }
           return (
             <div class="product-card" onClick={() => jumpLink(x)}>
               <div class="product-tumb">
-                <img src={"https://i.imgur.com/xdbHo4E.png"} alt="" />
+                <img src={x.img} alt="" />
               </div>
               <div class="product-details">
                 <div className="shape-cart">
