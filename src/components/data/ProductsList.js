@@ -340,11 +340,11 @@ export const ProductData = [
   },
   {
     id: 34,
-    offer: "57.3%",
-    img: "https://fasbazar.com/wp-content/uploads/2021/12/723F15A6-7403-4CFB-9C5C-6CDACD541DD6.jpeg",
-    title: "Jadore by Christian Dior- For Women – EDP 100ml",
-    oldPrice: "AED700.00",
-    offerPrice: "AED299.00",
-    link: "https://fasbazar.com/product/dior-jadore-100-ml-2/",
+    offer: "47.3%",
+    img: "https://fasbazar.com/wp-content/uploads/2021/12/E8B868E3-E68E-44C3-A543-D0BBB699FB05.jpeg",
+    title: "Mini gold glittery clutch",
+    oldPrice: "AED150.00",
+    offerPrice: "AED79.00",
+    link: "https://fasbazar.com/product/mini-gold-glittery-clutch/",
   },
 ];
